@@ -1,0 +1,121 @@
+[
+  {
+    "__type__": "Fire.Scene",
+    "_name": "",
+    "_objFlags": 0,
+    "_rawFiles": null,
+    "scene": {
+      "__id__": 1
+    }
+  },
+  {
+    "__type__": "Runtime.SceneWrapper",
+    "content": [
+      [
+        {
+          "w": {
+            "__id__": 1
+          },
+          "c": [
+            {
+              "w": {
+                "__id__": 2
+              }
+            },
+            {
+              "w": {
+                "__id__": 3
+              }
+            }
+          ]
+        }
+      ],
+      {
+        "__type__": "Runtime.NodeWrapper",
+        "_name": "Menu",
+        "_objFlags": 0,
+        "_position": [
+          0,
+          0
+        ],
+        "_scale": [
+          1,
+          1
+        ],
+        "_rotation": 0,
+        "_size": [
+          0,
+          0
+        ],
+        "_color": [
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "__type__": "Runtime.SpriteWrapper",
+        "_name": "helloBG",
+        "_objFlags": 0,
+        "_position": [
+          320,
+          160
+        ],
+        "_scale": [
+          1,
+          1
+        ],
+        "_rotation": 0,
+        "_size": [
+          640,
+          320
+        ],
+        "_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "_texture": {
+          "__uuid__": "9e29636a-a9fd-4306-8a31-4f52f19aa2f9"
+        }
+      },
+      {
+        "__type__": "Runtime.ButtonWrapper",
+        "_name": "btnStart",
+        "_objFlags": 0,
+        "_position": [
+          320,
+          160
+        ],
+        "_scale": [
+          1,
+          1
+        ],
+        "_rotation": 0,
+        "_size": [
+          252,
+          86
+        ],
+        "_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "_normalTexture": {
+          "__uuid__": "b5ae23cd-6a9e-47c9-87fc-d1bc3ba8557f"
+        },
+        "_pressedTexture": {
+          "__uuid__": "5ebe7828-7453-4856-b7e5-72d06271ced4"
+        },
+        "_disabledTexture": null,
+        "_text": "",
+        "_fontSize": 16,
+        "_font": null,
+        "_fontFamily": "Arial"
+      }
+    ]
+  }
+]

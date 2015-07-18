@@ -1,0 +1,92 @@
+[
+  {
+    "__type__": "Fire.Scene",
+    "_name": "",
+    "_objFlags": 0,
+    "_rawFiles": null,
+    "scene": {
+      "__id__": 1
+    }
+  },
+  {
+    "__type__": "Runtime.SceneWrapper",
+    "content": [
+      [
+        {
+          "w": {
+            "__id__": 1
+          }
+        },
+        {
+          "w": {
+            "__id__": 2
+          },
+          "t": {},
+          "m": "db607j2UiBKvYWYOkGIVjAX"
+        }
+      ],
+      {
+        "__type__": "Runtime.SpriteWrapper",
+        "_name": "PlayBG",
+        "_objFlags": 0,
+        "_position": [
+          320,
+          160
+        ],
+        "_scale": [
+          1,
+          1
+        ],
+        "_rotation": 0,
+        "_size": [
+          640,
+          320
+        ],
+        "_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "_anchorPoint": [
+          0.5,
+          0.5
+        ],
+        "_texture": {
+          "__uuid__": "9b004adc-a2c1-4709-898b-dda7abd2af91"
+        }
+      },
+      {
+        "__type__": "Runtime.SpriteWrapper",
+        "_name": "runner",
+        "_objFlags": 0,
+        "_position": [
+          130,
+          85
+        ],
+        "_scale": [
+          1,
+          1
+        ],
+        "_rotation": 0,
+        "_size": [
+          62,
+          56
+        ],
+        "_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "_anchorPoint": [
+          0.5,
+          0.5
+        ],
+        "_texture": {
+          "__uuid__": "fde660a1-9b84-44bf-a015-7d5aae435944"
+        }
+      }
+    ]
+  }
+]
