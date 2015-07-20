@@ -15,7 +15,9 @@
         {
           "w": {
             "__id__": 1
-          }
+          },
+          "t": {},
+          "m": "d30cc/i/vZIJak1FsFlg74F"
         },
         {
           "w": {
@@ -23,6 +25,23 @@
           },
           "t": {},
           "m": "db607j2UiBKvYWYOkGIVjAX"
+        },
+        {
+          "w": {
+            "__id__": 3
+          },
+          "c": [
+            {
+              "w": {
+                "__id__": 4
+              }
+            },
+            {
+              "w": {
+                "__id__": 5
+              }
+            }
+          ]
         }
       ],
       {
@@ -30,8 +49,8 @@
         "_name": "PlayBG",
         "_objFlags": 0,
         "_position": [
-          320,
-          160
+          0,
+          0
         ],
         "_scale": [
           1,
@@ -49,8 +68,8 @@
           1
         ],
         "_anchorPoint": [
-          0.5,
-          0.5
+          0,
+          0
         ],
         "_texture": {
           "__uuid__": "9b004adc-a2c1-4709-898b-dda7abd2af91"
@@ -86,6 +105,102 @@
         "_texture": {
           "__uuid__": "fde660a1-9b84-44bf-a015-7d5aae435944"
         }
+      },
+      {
+        "__type__": "Runtime.NodeWrapper",
+        "_name": "Status",
+        "_objFlags": 0,
+        "_position": [
+          320,
+          160
+        ],
+        "_scale": [
+          1,
+          1
+        ],
+        "_rotation": 0,
+        "_size": [
+          0,
+          0
+        ],
+        "_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "_anchorPoint": [
+          0,
+          0
+        ]
+      },
+      {
+        "__type__": "Runtime.BitmapFontWrapper",
+        "_name": "Meter",
+        "_objFlags": 0,
+        "_position": [
+          304.84956539993306,
+          124.96046081099973
+        ],
+        "_scale": [
+          0.7,
+          0.7
+        ],
+        "_rotation": 0,
+        "_size": [
+          63,
+          49
+        ],
+        "_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "_anchorPoint": [
+          0.9,
+          0.5
+        ],
+        "_bitmapFont": {
+          "__uuid__": "4204672e-300b-4947-9799-22dbbec05b88"
+        },
+        "_text": "0M",
+        "_anchor": 5,
+        "_align": 2
+      },
+      {
+        "__type__": "Runtime.BitmapFontWrapper",
+        "_name": "Coin",
+        "_objFlags": 0,
+        "_position": [
+          -243,
+          125
+        ],
+        "_scale": [
+          0.7,
+          0.7
+        ],
+        "_rotation": 0,
+        "_size": [
+          137,
+          49
+        ],
+        "_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "_anchorPoint": [
+          0.5,
+          0.5
+        ],
+        "_bitmapFont": {
+          "__uuid__": "4204672e-300b-4947-9799-22dbbec05b88"
+        },
+        "_text": "Coins: 0",
+        "_anchor": 4,
+        "_align": 0
       }
     ]
   }

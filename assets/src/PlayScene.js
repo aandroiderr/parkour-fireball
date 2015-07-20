@@ -1,9 +1,11 @@
 var PlayScene = Fire.Class({
     constructor: function() {
+
     },
 
     onLoad: function() {
-        var winsize = cc.director.getWinSize();
+        cc.view.setDesignResolutionSize(640, 320, cc.ResolutionPolicy.SHOW_ALL);
+        cc.view.resizeWithBrowserSize(true);
     }
 
 });
