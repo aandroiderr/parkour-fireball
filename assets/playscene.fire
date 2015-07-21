@@ -16,14 +16,21 @@
           "w": {
             "__id__": 1
           },
-          "t": {},
+          "t": {
+            "runner": null
+          },
           "m": "d30cc/i/vZIJak1FsFlg74F"
         },
         {
           "w": {
             "__id__": 2
           },
-          "t": {},
+          "t": {
+            "_runnerAsset": {
+              "__uuid__": "c2ff2363-4d32-485c-9b81-5642338f761e"
+            },
+            "_val$runnerFrames": "c2ff2363-4d32-485c-9b81-5642338f761e"
+          },
           "m": "db607j2UiBKvYWYOkGIVjAX"
         },
         {
@@ -158,7 +165,7 @@
           1
         ],
         "_anchorPoint": [
-          0.9,
+          1,
           0.5
         ],
         "_bitmapFont": {

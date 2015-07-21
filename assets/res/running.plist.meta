@@ -1,5 +1,6 @@
 {
   "ver": 0,
-  "uuid": "d2831437-5779-4e34-8bff-0ba8f50f1045",
-  "meta-type": "asset"
+  "uuid": "c2ff2363-4d32-485c-9b81-5642338f761e",
+  "meta-type": "sprite-atlas",
+  "texturePath": "running.png"
 }
