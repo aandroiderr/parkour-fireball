@@ -1,4 +1,5 @@
-module.exports = Fire.Class({
+var GameOverMenu = Fire.Class({
+    extends: Fire.Behavior,
     properties: {
       	myInt: 0
         // foo: {

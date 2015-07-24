@@ -1,8 +1,5 @@
 var PlayScene = Fire.Class({
-    constructor: function() {
-        this.space = null;
-    },
-
+    extends: Fire.Behavior,
     properties: {
         runner: {
             default: null,
@@ -11,6 +8,7 @@ var PlayScene = Fire.Class({
     },
 
     onLoad: function() {
+        this.space = null;
         cc.view.setDesignResolutionSize(640, 320, cc.ResolutionPolicy.SHOW_ALL);
         cc.view.resizeWithBrowserSize(true);
         this.space = new cp.Space();
@@ -33,4 +31,3 @@ var PlayScene = Fire.Class({
     }
 
 });
-module.exports = PlayScene;

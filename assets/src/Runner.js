@@ -1,8 +1,5 @@
 var Runner = Fire.Class({
-    constructor: function() {
-        // Fire.log("constructor.");
-        this.runningAction = null;
-    },
+    extends: Fire.Behavior,
     properties: {
         runnerFrames: {
             default: null,
@@ -16,7 +13,8 @@ var Runner = Fire.Class({
         }
     },
     onLoad: function() {
-        Fire.log("on load");
+        Fire.log("onload");
+        this.runningAction = null;
         var self = this;
         var actionTo = new cc.MoveTo(2, cc.p(300, 85));
         this.runAction(new cc.Sequence(actionTo));
@@ -40,4 +38,3 @@ var Runner = Fire.Class({
         Fire.log("init space");
     }
 });
-module.exports = Runner;
